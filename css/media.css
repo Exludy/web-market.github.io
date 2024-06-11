@@ -1,0 +1,164 @@
+@media (max-width: 1200px) {
+
+    .navbar img {
+        width: 250px;
+    }
+
+    .about-us,
+    .partners-menu {
+        padding: 100px 0;
+    }
+
+    .slides {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-container {
+        width: 95%;
+    }
+
+    .navbar img {
+        width: 150px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    .partners {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .slides {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 20%;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .navbar img {
+        width: 160px;
+    }
+
+    .work-options-slider {
+        margin: 40px 20px;
+    }
+
+    .partners {
+        gap: 30px;
+    }
+
+    .partners-menu img {
+        width: 40%;
+    }
+
+    .logo {
+        width: 25%;
+    }
+    
+.memory-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+        
+.memory-filter-btn {
+    width: 48%;
+    margin: 2px 1%;
+}
+
+.s {
+    justify-content: center;
+}
+
+
+}
+
+@media (max-width: 576px) {
+    .navbar img {
+        width: 140px;
+    }
+
+    .partners-menu img {
+        width: 60%;
+    }
+
+    .product {
+    width: 45%;
+    margin: 10px 2.5%;
+    }
+
+    .memory-filter-btn {
+        width: 100px;
+        margin: 0 2px;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .nav-container {
+        padding: 10px 10px;
+    }
+
+    .navbar img {
+        width: 200px;
+    }
+
+    .partners-menu {
+        padding: 100px 0;
+    }
+
+    .slides img {
+        width: 100px;
+    }
+
+
+    .memory-filter-btn {
+        width: 80px;
+
+    }
+
+    .logo {
+        width: 35%;
+    }
+
+    .slides {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 80px;
+
+        }
+        
+    .slide {
+        width: 35%;
+        }
+        
+    .slides img {
+        width: 100%;
+        }
+    
+    .work-options-slider p {
+        font-size: 16px;
+        word-break: break-all;
+    }
+}

@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+html {
+  background-image: linear-gradient(15deg, #eaf7eb 0, #deefe3 16.67%, #cce4d6 33.33%, #b4d5c7 50%, #9cc6b9 66.67%, #88bbb0 83.33%, #7ab4ad 100%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+  width: 100%;
+  background-color: transparent;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 10px 20px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.navbar img {
+  width: 220px;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  position: relative;
+  margin-right: 20px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.menu li:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-content a img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ddd;
+}
+
+.dropdown-content.show {
+  display: block;
+}
+
+.about-us {
+  display: flex;
+  padding: 180px 0px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  font-size: 18px;
+}
+
+.about-us h1 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo {
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  border-radius: 30%;
+  margin: 0 auto;
+}
+
+.stereos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+.example {
+  width: 20%;
+  border-radius: 10%;
+}
+
+.partners-menu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 150px 0;
+}
+
+.partners-text {
+  text-align: center;
+}
+
+.about-partners {
+  text-align: center;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 45px;
+}
+
+.partners-menu img {
+  width: 20%;
+}
+
+.work-options-slider {
+  text-align: center;
+  margin: 80px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.work-options-slider p {
+  font-size: 20px;
+}
+
+.slides {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+}
+
+.slide {
+  width: 170px;
+  align-items: center;
+}
+
+.slides img {
+  width: 150px;
+  border-radius: 3em;
+}
+
+.slides img:hover {
+  -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+.catalog {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.memory-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.memory-filter-btn {
+  width: 112px;
+  height: 40px;
+  font-size: 15px;
+  margin-right: 5px;
+  color: white;
+  background-color: #000000;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.memory-filter-btn:hover {
+background-image: radial-gradient(circle at 66.05% 109.88%, #d7ff8e 0, #c6ff96 10%, #afff9a 20%, #91ff9c 30%, #6aff9a 40%, #1df397 50%, #00e595 60%, #00db98 70%, #00d4a0 80%, #00cfab 90%, #00ceba 100%);
+}
+
+.work-options-slider p{
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  word-break: break-all;
+}
+
